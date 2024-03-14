@@ -28,7 +28,7 @@ const Home = () => {
   }, []);
 
   if (!jwtToken) {
-    return <Navigate to="/login" replace />;
+    return <Navigate to="/jokes-app" replace />;
   }
 
   return (

@@ -7,7 +7,7 @@ const Header = () => {
 
   const logOutButton = () => {
     Cookies.remove('jwt_token');
-    navigate('/login');
+    navigate('/jokes-app');
   };
 
   return (
