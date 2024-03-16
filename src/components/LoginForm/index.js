@@ -92,6 +92,8 @@ const LoginForm = () => {
     <div className="login-form-container">      
       <form className="form-container" onSubmit={submitForm}>
        <h1>Jokes App</h1>
+       <p>username:rahul</p>
+       <p>password:rahul@2021</p>
         <div className="input-container">{renderUsernameField()}</div>
         <div className="input-container">{renderPasswordField()}</div>
         <button type="submit" className="login-button">
